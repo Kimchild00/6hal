@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="6hal.css">
+    <link rel="stylesheet" href="b/css/bootstrap.min.css">
+    <link rel="stylesheet" href="b/fontawesome/css/fontawesome.css">
+    <link rel="stylesheet" href="b/fontawesome/css/brands.css">
+    <link rel="stylesheet" href="b/fontawesome/css/solid.css">
+    <script src="b/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+  <div class="header">
+    <div class="header-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 clearfix">
+            <div class="logo">
+              <a href="#">
+                <img src="logo.png" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-9 clearfix">
+            <ul class="nav justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Checkout</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Cart</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Login</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-middle">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="mainmenu pull-left">
+              <nav class="navbar navbar-expand navbar-light bg-light">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Confirm</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+          <div class="col-sm-4 pull-right">
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section id="cart_item">
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Shopping Cart</li>
+        </ol>
+      </nav>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Item</th>
+            <th scope="col"></th>
+            <th scope="col">Price</th>
+            <th scope="col">Quantity</th>
+            <th scope="col">Total</th>
+            <th scope="col"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">
+              <img src="one.png" alt="">
+            </th>
+            <td>
+              <h4>
+                <a href="">Colorblock Scuba</a>
+              </h4>
+              <p>Web ID: 1089772</p>
+            </td>
+            <td>
+              <p>$59</p>
+            </td>
+            <td>
+              <div class="cart_quantity_button">
+									<a class="cart_quantity_up" href=""> + </a>
+									<input class="cart_quantity_input" type="text" name="quantity" value="1" autocomplete="off" size="2">
+									<a class="cart_quantity_down" href=""> - </a>
+								</div>
+            </td>
+            <td class="total_price">
+              <p>$59</p>
+            </td>
+            <td class="cart_delete">
+								<a class="cart_quantity_delete" href=""><i class="fas fa-minus-circle"></i></a>
+							</td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <img src="two.png" alt="">
+            </th>
+            <td>
+              <h4>
+                <a href="">Colorblock Scuba</a>
+              </h4>
+              <p>Web ID: 1089772</p>
+            </td>
+            <td>
+              <p>$59</p>
+            </td>
+            <td>
+              <div class="cart_quantity_button">
+									<a class="cart_quantity_up" href=""> + </a>
+									<input class="cart_quantity_input" type="text" name="quantity" value="1" autocomplete="off" size="2">
+									<a class="cart_quantity_down" href=""> - </a>
+								</div>
+            </td>
+            <td class="total_price">
+              <p>$59</p>
+            </td>
+            <td class="cart_delete">
+								<a class="cart_quantity_delete" href=""><i class="fas fa-minus-circle"></i></a>
+							</td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <img src="three.png" alt="">
+            </th>
+            <td>
+              <h4>
+                <a href="">Colorblock Scuba</a>
+              </h4>
+              <p>Web ID: 1089772</p>
+            </td>
+            <td>
+              <p>$59</p>
+            </td>
+            <td>
+              <div class="cart_quantity_button">
+									<a class="cart_quantity_up" href=""> + </a>
+									<input class="cart_quantity_input" type="text" name="quantity" value="1" autocomplete="off" size="2">
+									<a class="cart_quantity_down" href=""> - </a>
+								</div>
+            </td>
+            <td class="total_price">
+              <p>$59</p>
+            </td>
+            <td class="cart_delete">
+								<a class="cart_quantity_delete" href=""><i class="fas fa-minus-circle"></i></a>
+							</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section id="do_action">
+		<div class="container">
+			<div class="heading">
+				<h3>What would you like to do next?</h3>
+				<p>Choose if you have a discount code or reward points you want to use or would like to estimate your delivery cost.</p>
+			</div>
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="chose_area">
+						<ul class="user_option">
+							<li>
+								<input type="checkbox">
+								<label>Use Coupon Code</label>
+							</li>
+							<li>
+								<input type="checkbox">
+								<label>Use Gift Voucher</label>
+							</li>
+							<li>
+								<input type="checkbox">
+								<label>Estimate Shipping &amp; Taxes</label>
+							</li>
+						</ul>
+						<ul class="user_info">
+							<li class="single_field">
+								<label>Country:</label>
+								<select>
+									<option>United States</option>
+									<option>Bangladesh</option>
+									<option>UK</option>
+									<option>India</option>
+									<option>Pakistan</option>
+									<option>Ucrane</option>
+									<option>Canada</option>
+									<option>Dubai</option>
+								</select>
+
+							</li>
+							<li class="single_field">
+								<label>Region / State:</label>
+								<select>
+									<option>Select</option>
+									<option>Dhaka</option>
+									<option>London</option>
+									<option>Dillih</option>
+									<option>Lahore</option>
+									<option>Alaska</option>
+									<option>Canada</option>
+									<option>Dubai</option>
+								</select>
+
+							</li>
+							<li class="single_field zip-field">
+								<label>Zip Code:</label>
+								<input type="text">
+							</li>
+						</ul>
+						<a class="btn btn-default update" href="">Get Quotes</a>
+						<a class="btn btn-default check_out" href="">Continue</a>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="total_area">
+						<ul>
+							<li>Cart Sub Total <span>$59</span></li>
+							<li>Eco Tax <span>$2</span></li>
+							<li>Shipping Cost <span>Free</span></li>
+							<li>Total <span>$61</span></li>
+						</ul>
+            <button type="button" class="btn btn-warning update">Update</button>
+            <button type="button" class="btn btn-warning check_out">Check Out</button>					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+    <script src="b/js/bootstrap.min.js"></script>
+    <script src="b/popper.min.js"></script>
+</body>
+</html>
