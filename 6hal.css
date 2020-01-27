@@ -1,0 +1,120 @@
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #333;
+}
+
+.mainmenu ul li a:hover, .mainmenu ul li a.active{
+  background: none;
+  color: #fdb45e;
+}
+
+.table{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.cart_info table tr td{
+  border-top: 0;
+  vertical-align: inherit;
+  margin-right: 5px
+}
+
+img{
+  vertical-align: middle;
+  border: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+.table thead{
+  background-color: #FE980F;
+}
+
+.total_price{
+  color: #FE980F;
+  font-size: 24px;
+}
+
+#do_action {
+  margin-bottom: 50px;
+
+}
+
+#do_action .total_area, #do_action .chose_area {
+  border: 1px solid #E6E4DF;
+  color:  #696763;
+  padding: 30px 25px 30px 0;
+  margin-bottom: 80px;
+}
+
+#do_action .total_area {
+  padding-bottom: 18px !important;
+
+}
+
+.user_info input, select, textarea {
+  background: #F0F0E9;
+  border: 0;
+  color:  #696763;
+  padding: 5px;
+  width: 100%;
+  border-radius: 0;
+  resize: none;
+}
+
+.user_option label {
+  color: #696763;
+  font-weight: normal;
+  margin-left: 10px;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+ul li{
+  list-style: none;
+}
+
+.total_area ul li {
+  background: #E6E4DF;
+  color:  #696763;
+  margin-top: 10px;
+  padding: 7px 20px;
+}
+
+.chose_area .update {
+  margin-left: 40px;
+}
+
+.update .check_out {
+  background: #FE980F;
+  border-radius: 0;
+  color:  #FFFFFF;
+  margin-top: 18px;
+  border: none;
+  padding: 5px 15px;
+}
+
+.check_out{
+  margin-left: 20px;
+}
+
+.update{
+  margin-left: 40px;
+}
+
+.heading {
+  margin-top: 50px;
+}
