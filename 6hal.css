@@ -23,4 +23,94 @@
 
 h4 {
     color: dodgerblue;
+.login-container {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.login-form-1 {
+    padding: 9%;
+    background: #282726;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login-form-1 h3 {
+    text-align: left;
+    margin-bottom: 12%;
+    color: #fff;
+}
+
+.login-form-2 {
+    padding: 9%;
+    background: #f05837;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login-form-2 h3 {
+    text-align: left;
+    margin-bottom: 12%;
+    color: #fff;
+}
+
+.btnSubmit {
+    font-weight: 600;
+    width: 50%;
+    color: #282726;
+    background-color: #fff;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+}
+
+.btnForgetPwd {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btnForgetPwd:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.numberCircle {
+    border-radius: 100%;
+    width: 75px;
+    height: 75px;
+    padding: 15px;
+    background: orangered;
+    color: white;
+    text-align: center;
+    font: 28px Arial, sans-serif;
+    display: inline-block;
+
+}
+
+.footer {
+    background-color: gray;
+    margin-top: 100px;
+}
+
+.footer .copyright {
+    float: left;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.footer .design {
+    float: right;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+/* Css Confirm */
+.confirm-container {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.form-group-confirm {
+    width: 50%;
+    margin-bottom: 20px;
+
 }
