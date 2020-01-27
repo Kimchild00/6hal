@@ -113,4 +113,105 @@ h4 {
     width: 50%;
     margin-bottom: 20px;
 
+.container #hov1 a:hover{
+    color: orange;
+}
+
+.container #ck {
+    color: grey;
+}
+
+.container #cr {
+    color: grey;
+}
+
+.container #log {
+    color: grey;
+}
+
+.container #hov2 a:hover{
+    color: orange;
+}
+
+.container #hm {
+    color: grey;
+}
+
+.container #ct {
+    color: grey;
+}
+
+.container #cf {
+    color: grey;
+}
+
+.container #bttn {
+    background-color: #dddddd;
+    color: grey;
+    border-color: #dddddd;
+}
+
+.container #cu {
+    color: orange;
+}
+
+.container #git {
+    color: orange;
+}
+
+.container #sub {
+    background-color: orange;
+    border-color: orange;
+}
+
+.container #ci {
+    color: orange;
+}
+
+.container #fb a:hover{
+    color: orange;
+}
+
+.container #fb {
+    color: grey;
+}
+
+.container #tw a:hover{
+    color: orange;
+}
+
+.container #tw {
+    color: grey;
+}
+
+.container #gp a:hover{
+    color: orange;
+}
+
+.container #gp{
+    color: grey;
+}
+
+.container #yt a:hover{
+    color: orange;
+}
+
+.container #yt{
+    color: grey;
+}
+
+.container #sn {
+    color: orange;
+}
+
+.container address {
+    color: grey;
+}
+
+.footer {
+    background-color: #dddddd;
+}
+
+.container #foot {
+    color: orange;
 }
